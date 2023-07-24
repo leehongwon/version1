@@ -35,10 +35,8 @@ $(function(){
       }, 1000)
   })
  
+  // 라이트모드 색상변경
   $('header button').click(function(){
     $('header, .section1, .section3, .section4, .section6, .section8, .section9, .section10, .section11, .section12, footer').toggleClass('light')
   })
-
 })
-
-// 라이트 모드
