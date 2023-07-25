@@ -508,11 +508,11 @@ main > *{
     color: #c6c6c6;
     font-family: 'Pretendard-Bold';
 }
-.section6 h4 {
+.section6 h3 {
     display: inline-block;
     font-size: 3.125rem;
     color: #fff;
-    font-family: 'Pretendard-Regular';
+    font-family: 'Pretendard-Bold';
 }
 .section6 .conbox {
     display: flex;
@@ -523,10 +523,10 @@ main > *{
     width: 45%;
     margin-right: 10%;
 }
-.section6 .conbox .leftcon h3 {
+.section6 .conbox .leftcon p {
     font-size: 1.2rem;
     margin-top: 60px;
-    font-family: 'Pretendard-Bold';
+    font-family: 'Pretendard-Regular';
 }
 .section6 .conbox .leftcon > a {
     display: inline-block;
@@ -956,7 +956,6 @@ footer h1 {
     background-color: #fff;
     color: #000;
 }
-
 .light #target {
     color: #000;
 }
@@ -966,7 +965,7 @@ footer h1 {
 .light h2 {
     color: #000;
 }
-.light h4 {
+.light h3 {
     color: #000;
 }
 .light h6 {
@@ -974,6 +973,33 @@ footer h1 {
 }
 .light a {
     color: #000;
+}
+.light article a {
+    border: 1px solid rgba(0, 0, 0, 0.3) !important;
+}
+.light article a .con-detail {
+    color: #000 !important;
+}
+.light article a:hover {
+    background-color: #1B1C1F !important;
+}
+.light article .con:hover h3 {
+    color: #fff;
+}
+.light article .con:hover .con-detail {
+    color: #fff !important;
+}
+
+.light .design-inner ul em {
+    -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-color: #000;
+
+}
+.light .design-inner ul:hover em {
+    color: #000;
+}
+.light .design-inner ul li .desc p {
+    color: #888;
 }
 
 
@@ -987,8 +1013,6 @@ header button {
 .moon {
     color: #1B1C1F;
 }
-
-
 
 
 
@@ -1202,7 +1226,7 @@ header button {
     .section6 {
         padding: 80px;
     }
-    .section6 .conbox .leftcon h3 {
+    .section6 .conbox .leftcon p {
         font-size: 1rem;
         font-family: 'Pretendard-Regular';
     }
@@ -1419,7 +1443,7 @@ header button {
     .section6 h2 {
         font-size: 1.5rem;
     }
-    .section6 h4 {
+    .section6 h3 {
         font-size: 2.5rem;
     }
     .section8 {
@@ -1491,7 +1515,7 @@ header button {
         width: 100%;
         margin: 0 0 2rem;
     }
-    .section6 .conbox .leftcon h3 {
+    .section6 .conbox .leftcon p {
         display: none;
     }
     .section6 .conbox .rightcon {
@@ -1558,7 +1582,7 @@ header button {
     .section4 h2 {
         font-size: 2rem;
     }
-    .section6 h4 {
+    .section6 h3 {
         font-size: 2rem;
     }
     .section8 .inner .innerL h4 {
